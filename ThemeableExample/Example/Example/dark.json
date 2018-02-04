@@ -1,0 +1,17 @@
+{
+	"isDark": true,
+    "tint": "#FF0000",
+	"dampened": "#505162",
+	
+	"text": "#FFFFFF",
+    "textInverse": "#000000",
+	"textDark": "#292B35",
+    "textLight": "#E7E8EB",
+  
+    "background": "#292B35",
+	"backgroundDark": "#E7E8EB",
+	"backgroundForm": "#292B35",
+    
+    "cell": "#E7E8EB",
+	"separator": "#00000000",
+}

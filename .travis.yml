@@ -1,0 +1,8 @@
+language: objective-c
+
+xcode_project: Themeable.xcodeproj
+osx_image: xcode9.2
+env: SCHEME="Themeable"
+
+script:
+  - xcodebuild clean build -project Themeable.xcodeproj -scheme $SCHEME
