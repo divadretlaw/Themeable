@@ -16,7 +16,7 @@ public class Theme {
     public var customColor: (() -> Void)?
     public var customAppearance: (() -> Void)?
     
-    func alert(title: String, message: String?, preferredStyle: UIAlertControllerStyle) -> UIAlertController {
+    public func alert(title: String, message: String?, preferredStyle: UIAlertControllerStyle) -> UIAlertController {
         let alert = UIAlertController(title: title, message: message, preferredStyle: preferredStyle)
         alert.view.tintColor = colors.tint
         
