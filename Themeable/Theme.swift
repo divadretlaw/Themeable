@@ -104,7 +104,7 @@ public class Theme {
         UITabBar.appearance().tintColor = self.colors.tint
         UITabBar.appearance().barStyle = self.colors.isDark ? .black : .default
         
-        // self.eurekaAppearance()
+        self.eurekaAppearance()
         self.customAppearance?()
     }
     
