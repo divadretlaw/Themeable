@@ -7,7 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		6350F5AB2027746400897240 /* Eureka.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6350F5AA2027746400897240 /* Eureka.framework */; settings = {ATTRIBUTES = (Weak, ); }; };
+		63012C512027806000868269 /* Eureka.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 63012C502027806000868269 /* Eureka.framework */; };
 		6387427B202770E200FB005D /* Themeable.h in Headers */ = {isa = PBXBuildFile; fileRef = 63874279202770E200FB005D /* Themeable.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		63874284202770FB00FB005D /* ThemeColors.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63874281202770FA00FB005D /* ThemeColors.swift */; };
 		63874285202770FB00FB005D /* Theme.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63874282202770FA00FB005D /* Theme.swift */; };
@@ -25,7 +25,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		6350F5AA2027746400897240 /* Eureka.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Eureka.framework; sourceTree = "<group>"; };
+		63012C502027806000868269 /* Eureka.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Eureka.framework; sourceTree = "<group>"; };
 		63874276202770E200FB005D /* Themeable.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Themeable.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		63874279202770E200FB005D /* Themeable.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Themeable.h; sourceTree = "<group>"; };
 		6387427A202770E200FB005D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -40,19 +40,28 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				6350F5AB2027746400897240 /* Eureka.framework in Frameworks */,
+				63012C512027806000868269 /* Eureka.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		6350F5B22027803F00897240 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				63012C502027806000868269 /* Eureka.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		6387426C202770E200FB005D = {
 			isa = PBXGroup;
 			children = (
 				63874278202770E200FB005D /* Themeable */,
 				63874289202771C000FB005D /* ThemeableExample */,
 				63874277202770E200FB005D /* Products */,
+				6350F5B22027803F00897240 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -72,7 +81,6 @@
 				63874283202770FB00FB005D /* UIColorExtension.swift */,
 				63874279202770E200FB005D /* Themeable.h */,
 				6387427A202770E200FB005D /* Info.plist */,
-				6350F5AA2027746400897240 /* Eureka.framework */,
 			);
 			path = Themeable;
 			sourceTree = "<group>";
@@ -325,6 +333,7 @@
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)/Themeable",
+					"$(PROJECT_DIR)",
 				);
 				INFOPLIST_FILE = Themeable/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
@@ -353,6 +362,7 @@
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)/Themeable",
+					"$(PROJECT_DIR)",
 				);
 				INFOPLIST_FILE = Themeable/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";

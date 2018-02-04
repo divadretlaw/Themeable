@@ -57,8 +57,8 @@ public class Theme {
         UILabel.appearance().textColor = self.colors.text
         
         // MARK: - UIButton
-        UIButton.appearance().backgroundColor = self.colors.backgroundButton
         UIButton.appearance().tintColor = self.colors.textButton
+        UIButton.appearance().backgroundColor = self.colors.backgroundButton
         
         // MARK: - UIBarButtonItem
         UIButton.appearance(whenContainedInInstancesOf: [UINavigationBar.self]).tintColor = self.colors.tint
@@ -110,7 +110,7 @@ public class Theme {
     
     // MARK: - Eureka
 
-    public var eureka: Bool = false
+    public var eureka = false
 
     private func eurekaAppearance() {
         guard eureka else { return }
@@ -130,4 +130,5 @@ public class Theme {
         UITableView.appearance(whenContainedInInstancesOf: [FormViewController.self]).backgroundColor = self.colors.backgroundForm
         UITextField.appearance(whenContainedInInstancesOf: [FormViewController.self]).backgroundColor = .clear
     }
+    
 }
