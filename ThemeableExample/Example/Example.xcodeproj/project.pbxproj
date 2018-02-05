@@ -9,13 +9,13 @@
 /* Begin PBXBuildFile section */
 		6350F5A42027739B00897240 /* Themeable.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6350F5A32027739B00897240 /* Themeable.framework */; };
 		6350F5A52027739B00897240 /* Themeable.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 6350F5A32027739B00897240 /* Themeable.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
-		6350F5A82027743500897240 /* dark.json in Resources */ = {isa = PBXBuildFile; fileRef = 6350F5A62027743500897240 /* dark.json */; };
-		6350F5A92027743500897240 /* light.json in Resources */ = {isa = PBXBuildFile; fileRef = 6350F5A72027743500897240 /* light.json */; };
 		638742972027722600FB005D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 638742962027722600FB005D /* AppDelegate.swift */; };
 		638742992027722600FB005D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 638742982027722600FB005D /* ViewController.swift */; };
 		6387429C2027722600FB005D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6387429A2027722600FB005D /* Main.storyboard */; };
 		6387429E2027722600FB005D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6387429D2027722600FB005D /* Assets.xcassets */; };
 		638742A12027722600FB005D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6387429F2027722600FB005D /* LaunchScreen.storyboard */; };
+		6398FEAC202903F30094E9F6 /* light.json in Resources */ = {isa = PBXBuildFile; fileRef = 6398FEAA202903F20094E9F6 /* light.json */; };
+		6398FEAD202903F30094E9F6 /* dark.json in Resources */ = {isa = PBXBuildFile; fileRef = 6398FEAB202903F20094E9F6 /* dark.json */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -34,8 +34,6 @@
 
 /* Begin PBXFileReference section */
 		6350F5A32027739B00897240 /* Themeable.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = Themeable.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		6350F5A62027743500897240 /* dark.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; name = dark.json; path = "../../../../Themeable-/Themeable/dark.json"; sourceTree = "<group>"; };
-		6350F5A72027743500897240 /* light.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; name = light.json; path = "../../../../Themeable-/Themeable/light.json"; sourceTree = "<group>"; };
 		638742932027722600FB005D /* Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		638742962027722600FB005D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		638742982027722600FB005D /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -43,6 +41,8 @@
 		6387429D2027722600FB005D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		638742A02027722600FB005D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		638742A22027722600FB005D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6398FEAA202903F20094E9F6 /* light.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = light.json; sourceTree = "<group>"; };
+		6398FEAB202903F20094E9F6 /* dark.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = dark.json; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -83,8 +83,8 @@
 				6387429D2027722600FB005D /* Assets.xcassets */,
 				6387429F2027722600FB005D /* LaunchScreen.storyboard */,
 				638742A22027722600FB005D /* Info.plist */,
-				6350F5A62027743500897240 /* dark.json */,
-				6350F5A72027743500897240 /* light.json */,
+				6398FEAB202903F20094E9F6 /* dark.json */,
+				6398FEAA202903F20094E9F6 /* light.json */,
 			);
 			path = Example;
 			sourceTree = "<group>";
@@ -150,10 +150,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				638742A12027722600FB005D /* LaunchScreen.storyboard in Resources */,
-				6350F5A92027743500897240 /* light.json in Resources */,
+				6398FEAD202903F30094E9F6 /* dark.json in Resources */,
+				6398FEAC202903F30094E9F6 /* light.json in Resources */,
 				6387429E2027722600FB005D /* Assets.xcassets in Resources */,
 				6387429C2027722600FB005D /* Main.storyboard in Resources */,
-				6350F5A82027743500897240 /* dark.json in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

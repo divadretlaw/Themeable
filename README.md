@@ -1,7 +1,6 @@
 # Themeable
 
-[![Build Status](https://img.shields.io/travis/divadretlaw/Themeable.svg?style=flat-square)](https://travis-ci.org/divadretlaw/Themeable)
-[![Swift](https://img.shields.io/badge/swift-4.0-orange.svg?style=flat-square)](https://swift.org)
+[![Build Status](https://img.shields.io/travis/divadretlaw/Themeable.svg?style=flat-square)](https://travis-ci.org/divadretlaw/Themeable) [![Carthage](https://img.shields.io/badge/Carthage-compatible-4BC51D.svg?style=flat-square)](https://github.com/Carthage/Carthage) [![Swift](https://img.shields.io/badge/swift-4.0-orange.svg?style=flat-square)](https://swift.org)
 [![License](https://img.shields.io/github/license/divadretlaw/Themeable.svg?style=flat-square)](LICENSE)
 
 ## Usage
