@@ -1,8 +1,6 @@
-# Themeable
+![themeable](https://user-images.githubusercontent.com/6899256/35829392-0931e870-0ac3-11e8-8582-7a39a91fd4d2.png)
 
-[![Build Status](https://img.shields.io/travis/divadretlaw/Themeable.svg?style=flat-square)](https://travis-ci.org/divadretlaw/Themeable)
-[![Swift](https://img.shields.io/badge/swift-4.0-orange.svg?style=flat-square)](https://swift.org)
-[![License](https://img.shields.io/github/license/divadretlaw/Themeable.svg?style=flat-square)](LICENSE)
+# Themeable [![Build Status](https://img.shields.io/travis/divadretlaw/Themeable.svg?style=flat-square)](https://travis-ci.org/divadretlaw/Themeable) [![Swift](https://img.shields.io/badge/swift-4.0-orange.svg?style=flat-square)](https://swift.org) [![License](https://img.shields.io/github/license/divadretlaw/Themeable.svg?style=flat-square)](LICENSE)
 
 ## Usage
 
