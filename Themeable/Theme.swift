@@ -10,9 +10,16 @@ import UIKit
 import Eureka
 
 public class Theme {
+    
+    public enum Features {
+        case eureka
+    }
+    
     public static let shared = Theme()
     
     public var colors = ThemeColors.default
+    public var features: [Features] = []
+    
     public var customColor: (() -> Void)?
     public var customAppearance: (() -> Void)?
     
@@ -110,10 +117,8 @@ public class Theme {
     
     // MARK: - Eureka
 
-    public var eureka = false
-
     private func eurekaAppearance() {
-        guard eureka else { return }
+        guard features.contains(.eureka) else { return }
         
         ButtonRow.defaultCellSetup = { cell, row in
             cell.tintColor = self.colors.tint
