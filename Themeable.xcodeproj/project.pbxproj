@@ -11,7 +11,7 @@
 		63874284202770FB00FB005D /* ThemeColors.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63874281202770FA00FB005D /* ThemeColors.swift */; };
 		63874285202770FB00FB005D /* Theme.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63874282202770FA00FB005D /* Theme.swift */; };
 		63874286202770FB00FB005D /* UIColorExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63874283202770FB00FB005D /* UIColorExtension.swift */; };
-		6398FEAF202904610094E9F6 /* Eureka.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6398FEAE202904610094E9F6 /* Eureka.framework */; };
+		6398FEAF202904610094E9F6 /* Eureka.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6398FEAE202904610094E9F6 /* Eureka.framework */; settings = {ATTRIBUTES = (Weak, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
